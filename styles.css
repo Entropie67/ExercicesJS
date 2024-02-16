@@ -1,0 +1,42 @@
+/* Vous ne devez pas modifier ce fichier */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: center;
+}
+h1, h2 {
+    text-align: center;
+}
+
+section a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+section {
+    border: solid;
+    background-color: darkgray;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#exo2 {
+    margin: auto;
+    display: block;
+}
+
+#septiemeExercice img {
+    height: 10%;
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+}

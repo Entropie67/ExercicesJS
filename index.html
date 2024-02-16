@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Exercices JS</title>
+</head>
+<body>
+    <!-- Ne MODIFIEZ PAS CE FICHIER -->
+    <header>
+        <h1>Exercices Javascript</h1>
+        <p> Dans ces exercices vous ne devez <strong>jamais</strong> modifier les fichiers <code>index.html</code> et <code>style.css</code></p>
+        <p>Vous ne devez écrire <strong>QUE</strong> dans <code>scripte.js</code></p>
+
+    </header>
+    <main>
+        <section id="premierExercice">
+            <h2>Exercices 1</h2>
+            <p>Dans ce premier exercice, vous allez changer la couleur du fon de cette section, mais attention, cela doit
+            se faire depuis le fichier js !</p>
+            <a href="https://www.w3schools.com/jsref/prop_html_style.asp">Aide</a>
+        </section>
+        <section id="deuxiemeExercice">
+            <h2>Exercices 2</h2>
+            <p>Dans ce deuxième exercice, au moment du clique sur le bouton, la couleur du fond de la section doit
+                changer. </p>
+            <button id="exo2" type="button">Changer la couleur</button>
+        </section>
+        <section id="troisiemeExercice">
+            <h2>Exercices 3</h2>
+            <p>Dans ce troisième exercices, quand l'utilisateur rentre son nom dans le champ input, cela affiche la phrase
+            "Bonjour, tu t'appelles ... (et rajoute son nom)</p>
+            <label for="name">Ton nom :</label>
+            <input type="text" id="name" name="name" required minlength="2" maxlength="8" size="10" />
+        </section>
+        <section id="quatriemeExercice">
+            <h2>Exercices 4</h2>
+            <p>Dans cet exercices l'utilisateur doit choisir dans liste déroulante. S'il choisi la bonne réponse, le fond devient vert
+            Sinon, le fond devient rouge. (on accepte du orange pour les maths)</p>
+            <h3>Quelle spécialité accorde le plus de <strong>puissance</strong> à ses élèves</h3>
+            <label for="spe-select">Choix de la spécialité:</label>
+            <select name="spe-select" id="spe-select">
+                <option value="">--Choisissez une spé--</option>
+                <option value="Maths">Maths</option>
+                <option value="NSI">NSI</option>
+                <option value="HLP">HLP</option>
+                <option value="PC">PC</option>
+                <option value="SVT">SVT</option>
+                <option value="SES">SES</option>
+                <option value="CAV">CAV</option>
+                <option value="HGGSP">HGGSP</option>
+            </select>
+        </section>
+        <section id="cinquiemeExercice">
+            <h2>Exercices 5</h2>
+            <p>Dans cet exercice l'utilisateur doit se connecter. Si les identifiants sont juste le fond passe en vert
+            Sinon, le fond passe en rouge</p>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" />
+            </div>
+            <div>
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password" minlength="8" required />
+            </div>
+            <input type="button" value="Sign in" />
+        </section>
+        <section id="sixiemeExercice">
+            <h2>Exercices 6</h2>
+            <p> Dans cet exercice, quand l'utilisateur clique sur le bouton, cela doit afficher la table de multiplication de 13.:</p>
+            <button id="exo6" type="button">Table de 13</button>
+        </section>
+        <section id="septiemeExercice">
+            <h2>Exercices 7</h2>
+            <p> Dans cet exercice, quand l'utilisateur clique sur le bouton, cela doit doit masque l'image</p>
+            <img src="NSIB.png"/>
+            <button id="exo7" type="button">Cacher</button>
+        </section>
+        <section id=exericeFinal">
+            <h2>Exercices 8</h2>
+            <p>Dans ce dernier exercices, en cliquant sur le bouton on déclanche l'anihilation de l'humanité par l'IA : <strong>Eve* AGI</strong></p>
+            <p>Cela sera évidemment la dernière fois que vous ferez un exercice</p>
+            <button id="exo8" type="button">Fin (bien réfléchir avant...)</button>
+        </section>
+    </main>
+    <footer>
+        <p>NSI - Le Gymnase</p>
+    </footer>
+    <script src="scripte.js"></script>
+</body>
+</html>
